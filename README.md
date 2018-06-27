@@ -16,7 +16,7 @@ usage:
        - FLUENTD_AWS_KEY_ID=your aws key
        - FLUENTD_AWS_SECRET_KEY=your aws secret
        - FLUENTD_AWS_S3_REGION=ap-northeast-1
-       - FLUENTD_MATCH_PATTERN=golem-local
-```
+      - FLUENTD_TIMEKEY_WAIT=1m
+      - FLUENTD_TIMEKEY=60
 
-The match pattern is actually not used atm.
+```
